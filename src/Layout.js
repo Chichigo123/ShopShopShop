@@ -22,9 +22,14 @@ const gridTable = () => {
 
 const navigationBar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navBarTop">
+        <nav className="navbar navbar-expand-sm navbar-light bg-light fixed-top" id="navBarTop">
             <a class="navbar-brand" href="#" id="headerFont">Learning by Doing</a>
-            <div className="collapse navbar-collapse" id="navbarNav">
+          
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div className="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul className="navbar-nav">
                     <li className="nav-item active"><a className="nav-link" href="#">About</a></li>
                     <li className="nav-item "><a className="nav-link" href="#">Portfolio</a></li>
@@ -41,9 +46,13 @@ const Layout = () => {
    return (       
         <MDBContainer fluid='True' id="fullpage">
             <MDBRow>
-                {navigationBar()}
+                <MDBCol sm="12">
+                    {navigationBar()}
+                </MDBCol>
             </MDBRow>
-            {gridTable()}
+            <MDBRow>
+                {gridTable()}
+            </MDBRow>
         </MDBContainer>
     
           
