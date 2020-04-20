@@ -1,6 +1,6 @@
 import React from "react";
 import { MDBContainer, MDBRow, MDBCol } from 'mdbreact';
-import 'bootstrap-css-only/css/bootstrap.min.css'; 
+
 import 'mdbreact/dist/css/mdb.css';
 import './Layout.css'
 
@@ -10,9 +10,9 @@ const gridTable = () => {
       
         <MDBContainer fluid='True' id="fullpage">
             <MDBRow>
-                <MDBCol sm="6" id="first" >1</MDBCol>
-                <MDBCol sm="4" >2</MDBCol>
-                <MDBCol sm="2" >3</MDBCol>
+                <MDBCol sm="6" md="6" id="first" >1</MDBCol>
+                <MDBCol sm="6" md="4" >2</MDBCol>
+                <MDBCol md="2" >3</MDBCol>
             </MDBRow>
         </MDBContainer>
     
@@ -29,7 +29,7 @@ const navigationBar = () => {
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div className="collapse navbar-collapse" id="collapsibleNavbar">
+            <div className="collapse navbar-collapse fontsize-ten" id="collapsibleNavbar">
                 <ul className="navbar-nav">
                     <li className="nav-item active"><a className="nav-link" href="#">About</a></li>
                     <li className="nav-item "><a className="nav-link" href="#">Portfolio</a></li>
