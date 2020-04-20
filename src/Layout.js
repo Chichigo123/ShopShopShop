@@ -7,22 +7,20 @@ import './Layout.css'
 
 const gridTable = () => {
     return (
-      
         <MDBContainer fluid='True' id="fullpage">
             <MDBRow>
-                <MDBCol sm="6" md="6" id="first" >1</MDBCol>
-                <MDBCol sm="6" md="4" >2</MDBCol>
-                <MDBCol md="2" >3</MDBCol>
+                <MDBCol id="first" md="6" >1</MDBCol>
+                <MDBCol  md="4">2</MDBCol>
+                <MDBCol id="third"  md="2">3</MDBCol>
             </MDBRow>
         </MDBContainer>
-    
     );
 
 }
 
 const navigationBar = () => {
     return (
-        <nav className="navbar navbar-expand-sm navbar-light bg-light fixed-top" id="navBarTop">
+        <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top" id="navBarTop">
             <a class="navbar-brand" href="#" id="headerFont">Learning by Doing</a>
           
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -30,7 +28,7 @@ const navigationBar = () => {
             </button>
 
             <div className="collapse navbar-collapse fontsize-ten" id="collapsibleNavbar">
-                <ul className="navbar-nav">
+                <ul className="navbar-nav navbar-dark bg-dark ">
                     <li className="nav-item active"><a className="nav-link" href="#">About</a></li>
                     <li className="nav-item "><a className="nav-link" href="#">Portfolio</a></li>
                     <li className="nav-item "><a className="nav-link"  href="#">Games</a></li>
