@@ -4,14 +4,22 @@ import { MDBContainer, MDBRow, MDBCol } from 'mdbreact';
 import 'mdbreact/dist/css/mdb.css';
 import './Layout.css'
 
+const footer = () => {
+    return (
+       
+            <div className="footer">
+              Footer is here
+            </div>
+        
+    );
+}
 
 const gridTable = () => {
     return (
-        <MDBContainer fluid='True' id="fullpage">
+        <MDBContainer id="fullpage">
             <MDBRow>
-                <MDBCol id="first" md="6" >1</MDBCol>
-                <MDBCol  md="4">2</MDBCol>
-                <MDBCol id="third"  md="2">3</MDBCol>
+                <MDBCol id="first" size="8" >1</MDBCol>
+                <MDBCol >2</MDBCol>
             </MDBRow>
         </MDBContainer>
     );
@@ -43,14 +51,20 @@ const navigationBar = () => {
 const Layout = () => {
    return (       
         <MDBContainer fluid='True' id="fullpage">
-            <MDBRow>
-                <MDBCol sm="12">
+             <MDBRow>
+              
                     {navigationBar()}
-                </MDBCol>
-            </MDBRow>
+
+            </MDBRow> 
+
             <MDBRow>
                 {gridTable()}
-            </MDBRow>
+            </MDBRow> 
+
+             <MDBRow>
+                {footer()}
+            </MDBRow> 
+
         </MDBContainer>
     
           
