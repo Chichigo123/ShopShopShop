@@ -125,7 +125,7 @@ const gridTable = () => {
                         <li>JavaScript</li>
                     </ul>
                     <br/>
-                    {/* <img src="beach-orig.jpg" alt="avatar" className="avatar" /> */}
+                    {/* <img src="beach-orig.j pg" alt="avatar" className="avatar" /> */}
                     {/* <p> Hi I'm Shane!</p> */}
                     {/* <img src="beach-orig.jpg" className = "pic" /> */}
                     {/* {createMDBCard()} */}
