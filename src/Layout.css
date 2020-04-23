@@ -1,36 +1,113 @@
-#fullpage{
+.col-md-1{
 
-    height: 100vh;
+    /* background-color: red; */
+}
+
+.col-md-2{
+
+    /* background-color: rgba(202, 66, 66, 0.205); */
+}
+.homeTop{  
+
+    padding: 10vh; 
+    border:0;
+    /* background-color: #00bcd4; */
+
+}
+
+
+.home{  
+    height: 90vh;
+    padding: 10vh;
+    margin-top: 10vh; 
+    /* background-color: #00a5bb; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.home.col-md-4{
+    background-color: rgb(255, 255, 255);
+
+}
+.home.col-md-8{
+    background-color: rgb(159, 255, 255, .8);
+
+}
+
+.aboutPage{
+    display: block;
+    margin: auto auto auto auto;
+    width:30vh;
+    height: 5vh;;
+    background-color: #F0EDE5;
+    
+    /* border: 2px solid #D1B894;; */
+    /* -webkit-box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75); */
+    box-shadow: -1px 3px 16px -1px rgba(118,111,87,0.78);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Electrolize');
+.aboutPage > p {
+    text-align: center;
+    color: #6C4F3D;
+    font-size: 2vh;
+    font-family: Electrolize, sans-serif;
+    
+
+
+}
+
+.avatar{
+    border-radius: 50%;
+    height: 50%;
+    width: 50%;
+    /* position: fixed; */
+    /* margin-top: vh; */
+    display: block  ; 
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #EAE6DA;
+    box-shadow: -1px 3px 16px -1px rgba(118,111,87,0.78);
+    opacity: .9;
+}
+
+.home > ul{
+    font-size: 20px;
+    /* text-align: center; */
+    list-style-type:none;
+    /* list-style: inside; */
+    margin-top: 1vh;
+    
+}  
+
+@import url('https://fonts.googleapis.com/css?fmily=Give+You+Glory');
+.home > p{   
+    
+    font-size: 100px;
+    text-align: center;
+    /* padding: 10%; */
+    /* margin-right: 20vh;   */
+    /* font-family: "Give You Glory", cursive;
+    font-style: italic; */
+    /* text-transform: capitalize; */
+    /* font-variant: small-caps; */
+    letter-spacing: -2px;
+    word-spacing: 2px;
+    color: #6C4F3D;
+    /* text-shadow: rgb(0, 0, 0) 2px 2px  */
+    
+}
+.img-responsive{
+    height:100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
    
 }
 
-
-#first.col-8{
-    
-    background-color: #474e463b;
-    color: #fff;
-}
-
-.col-8{
-    height:80vh;
-    padding: 5rem;
-    background-color: #f3e6e652;
-    border: 3px solid #fff;
-    color: #fff;
-    text-align: left;
-}
-
-
-.col{
-    height:80vh;
-    padding: 5rem;
-    background-color: #f3e6e652;
-    border: 3px solid #fff;
-    color: rgb(187, 41, 41);
-    text-align: center;
-    opacity: 1;
- 
-}
 
 
 #third.col-sm-2{
@@ -38,17 +115,18 @@
     display: none!important;
 }
 
-.fontsize-ten{
-    font-size: 10px;
+.fontsize-twenty{
+    font-size: 20px;
 }
 
 #navBarTop{
-    height:40px;
+    height:10vh;
+    opacity: 1;
 }
 
 #headerFont{
     font-family: Tahoma, Geneva, sans-serif;
-    font-size: 24px;
+    font-size: 30px;
     letter-spacing: 0.8px;
     word-spacing: -4.6px;
     color: #ffffff;
@@ -58,34 +136,16 @@
     font-variant: small-caps;
 }
 
-@media only screen and (max-width: 480px), only screen and (max-device-width: 480px), 
-       only screen and (max-width: 640px), only screen and (max-device-width: 640px){
-    
-       
-#headerFont{
-
-    font-family: "Courier New", Courier, monospace;
-    font-size: 10px;
-    letter-spacing: -0.8px;
-    word-spacing: -0.4px;
-    color: #ffffff;
-    font-weight: 700;
-    text-decoration: none;
-    font-style: normal;
-    font-variant: small-caps;
-    text-transform: capitalize;
- }
-
-}
 
 
-.col-3.footer > p.footerParagraph {
-    font-family: Arial, Helvetica, sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Assistant');
+.col-4.footer > p.footerParagraph {
+    font-family: Assistant, sans-serif;
     text-align: center;
     text-transform: none;
-    font-size: 10px;
+    font-size: 15px;
     letter-spacing: 2px;
-    color: #7e92a1;
+    color: #ffffff;
     position: relative;
     margin-top: -10px;
     font-variant: normal;
@@ -93,49 +153,164 @@
 
 
  @import url('https://fonts.googleapis.com/css?family=Assistant');
-.col-3.footer > p {
+.col-4.footer > p {
     font-family: Assistant, sans-serif;
     font-variant: small-caps;
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     letter-spacing: 2px;
     word-spacing: -2px;
-    color: #7e92a1;
+    color: #ffffff;
     margin-top: 1px;
 }
 
-.col-3.footer {
+.col-4.footer {
     height:15vh;
     padding: 0rem;
-    background-color:#f3e4c9;
+    
     text-align: center;
     border: 0;
  }
 
 #footerCont.container-fluid{
+    background-color:#008fa1;
     height:20vh;
-    background-color:black;
     position: fixed;
     bottom: 0;
     left:0;
 
 }
 
- .col.footer {
-    height:15vh;
-    padding: 0rem;
-    background-color:#f3e4c9;
-    color: rgb(6, 53, 61);
-    text-align: center;
-    border: 0;
- }
- .col.footerBelow{
+#copyright.container-fluid{
     height:5vh;
-    padding: .6rem;
-    border-top: 1px;
-    border-color: white;
-    background-color: #1d2124;
-    color: white;
-    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    /* background-color: #007888; */
+    border-left:5px  solid rgb(252, 243, 243);
+    border-right:5px  solid rgb(252, 243, 243);
+    border-bottom: 5px  solid rgb(252, 243, 243);
+    /* background-color:red;  */
+    box-shadow: none;
+
+
+
+}
+
+ .copyrightFooter{
+    padding: .8rem;
+    color: rgb(124, 124, 124);
+    text-align: right;
     border: 0;
+    box-shadow: none;
+    font-size: 10px;
  }
+
+
+.socialIcons{
+    height: 20vh;
+}
+
+#icons.socialIcons{
+    text-align: center;
+    padding:.5rem
+}
+
+
+.fa {
+    padding: 5px;
+/* padding-top: 10px; */
+padding-left:12px;
+/* padding-bottom: 10px; */
+font-size: 30px;
+width: 50px;
+text-decoration: none;
+border-radius: 50%;
+margin-right: 1rem;
+border: 2px solid white;
+
+/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+/* margin-right: 1rem;
+margin-bottom: .7rem; */
+}
+
+
+#icons{
+    margin-left: auto;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+/* background: #3B5998; */
+color: white;
+
+}
+
+.fa-linkedin {
+/* background: #007bb5; */
+color: white;
+}
+
+.fa-skype {
+/* background: #00aff0; */
+color: white;
+}
+
+.fa-github {
+padding-top: 0px;
+padding-left: 0px;
+padding-bottom: 0px;
+margin-right: none;
+background-color: none;
+box-shadow: none;
+border: none;
+padding-top: 0px;
+color:rgb(88, 88, 88);
+font-size: 30px;
+width: 20px;
+/* margin-left: none; */
+}
+
+.fa-facebook {
+    /* background: #3B5998; */
+    color: white;
+    
+}
+
+@import url('https://fonts.googleapis.com/css?family=Electrolize');
+.fa-phone  {
+    text-align: center;
+    color: #6C4F3D;
+    font-size: 6vh;
+    font-family: Electrolize, sans-serif;
+}
+    
+
+.fa.fa-github:hover {
+opacity: 0.5;
+color:white;
+}
+
+.afont
+{
+    color:white;    
+}
+
+.pic{
+
+
+
+}
+.card-body{
+
+    width: 30%;
+    height: 80%; 
+    
+    margin-left: auto;
+    margin-right: 10vh;
+    margin-top: 1%;
+
+}

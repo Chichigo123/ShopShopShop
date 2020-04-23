@@ -1,0 +1,35 @@
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px), 
+only screen and (max-width: 640px), only screen and (max-device-width: 640px){
+
+
+#headerFont, .col-3.footer > p {
+
+font-family: "Courier New", Courier, monospace;
+font-size: 10px;
+letter-spacing: -0.8px;
+word-spacing: -0.4px;
+color: #ffffff;
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: small-caps;
+text-transform: capitalize;
+}
+
+.col-3.footer > p.footerParagraph {
+font-size: 5px;
+}
+
+.fa {
+    font-size: 10px;
+}
+
+.fa-github {
+    padding-top: 0px;
+    color:white;
+    font-size: 5px;
+    width: 15px;
+    }
+
+}

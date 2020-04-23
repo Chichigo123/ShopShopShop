@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './Media.css';
 import Game from './TicTacToe'
 import Layout from './Layout'
 
