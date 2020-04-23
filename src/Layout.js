@@ -145,12 +145,18 @@ const gridTable = () => {
                         <p>Contact</p>
                     </div>
                     <br/>
-                    <div className="fa fa-phone">
-                        <p></p>
-                        <li className="fa fa-envelope"></li> </div>
+                    
                     <ul>
-                     
-                        <li >shanepalomo@gmail.com</li>
+                    <li className="fa fa-phone">
+                    
+                    </li>   
+                    <p>+63 926-058-4596</p> 
+                    <li className="fa fa-envelope">
+
+                    </li>
+                    <p>shanepalomo@gmail.com</p>
+                   
+                        
                       
                     </ul>
                     <br/>

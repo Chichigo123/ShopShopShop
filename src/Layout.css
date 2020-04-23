@@ -234,6 +234,13 @@ border: 2px solid white;
 margin-bottom: .7rem; */
 }
 
+.fa-phone{
+
+
+    display: inline-block;
+  
+}
+
 
 #icons{
     margin-left: auto;
@@ -280,14 +287,7 @@ width: 20px;
     
 }
 
-@import url('https://fonts.googleapis.com/css?family=Electrolize');
-.fa-phone  {
-    text-align: center;
-    color: #6C4F3D;
-    font-size: 6vh;
-    font-family: Electrolize, sans-serif;
-}
-    
+
 
 .fa.fa-github:hover {
 opacity: 0.5;
