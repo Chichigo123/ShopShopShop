@@ -3,6 +3,8 @@ import { MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardTitle, MDBCardText, MDBCa
 
 import 'mdbreact/dist/css/mdb.css';
 import './Layout.css'
+import './Icons.css'
+import './Card.css'
 
 const createMDBCard = () => {
     return(
@@ -71,95 +73,64 @@ const footer = () => {
     );
 }
 
-const socialIcons = () => {
-    return (
-        <MDBRow>
-             <MDBCol className="socialIcons"md="2">
-            </MDBCol>
-
-            <MDBCol className="socialIcons" md="8" id="icons">
-                <a href="https://web.facebook.com/roseshane.palomo.92" class="fa fa-facebook"></a>
-                <a href="https://www.linkedin.com/in/rose-shane-palomo-30a403135" class="fa fa-linkedin"></a>
-                <a href="#" class="fa fa-skype"></a>
-                <a href="https://github.com/Chichigo123" class="fa fa-github"></a>
-                
-            </MDBCol>
-
-            <MDBCol className="socialIcons"md="2">
-            </MDBCol>
-        </MDBRow>
-    );
-
-}
-
 const gridTable = () => {
     return (
         // className="w-50"
         <MDBContainer >
-              {/* <MDBRow className="homeTop" >
-            
-            </MDBRow> */}
             <MDBRow >
-            {/* <MDBCol  md="4" >   
-            </MDBCol> */}
-          
-              
               <MDBCol className="home" md="8" >
+                    <div className="avatarBox">
+                        
+                    </div>
+                    <div>
+                        <h1 id="welcomeHeader" style={{"font-size":"20vh"}}>Welcome</h1>
+                        <h5 id="welcomeHeader" style={{"color":"#6C4F3D", "opacity":".5"}}>
+                            This is an experimental site for front-end and back-end web development.<br/>
+                            Click <a href="#">ABOUT</a> to know more about the owner.
+                        </h5>
+                    </div>
                  
-                        {/* <img src="beach-orig.jpg" alt="avatar" className="avatar" /> */}
-                 
-                    
+                   
                     {/* <p> Hi I'm Shane!</p> */}
                     {/* <img src="beach-orig.jpg" className = "pic" /> */}
                     {/* {createMDBCard()} */}
               </MDBCol>
               <MDBCol className="home" md="4" >
-                  
                     <div className="aboutPage">
                         <p> About Site</p>
                     </div>
-                    <br/>
-                    <ul>
-                        <li>ReactJS</li>
-                        <li>Bootstrap</li>
-                        <li>JavaScript</li>
-                    </ul>
-                    <br/>
-                    {/* <img src="beach-orig.j pg" alt="avatar" className="avatar" /> */}
-                    {/* <p> Hi I'm Shane!</p> */}
-                    {/* <img src="beach-orig.jpg" className = "pic" /> */}
-                    {/* {createMDBCard()} */}
+                    <div className="aboutPageList">
+                        <ul>
+                            <li>ReactJS</li>
+                            <li>Bootstrap</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
                     <div className="aboutPage">
                         <p>Address</p>
                     </div>
-                    <br/>
-                    <ul>
-                        <li>Purok 5, Brgy. Calumpang,</li>
-                        <li>Liliw, Laguna</li>
-                        <br/>
-                        <li>7072 Lanzones, Langka Cor.,</li>
-                        <li>Ceomebo, Makati</li>
-                    </ul>
-                    <br/>
+                    <div className="aboutPageList">
+                        <ul>
+                            <li>Purok 5, Brgy. Calumpang,</li>
+                            <li>Liliw, Laguna</li>
+                            <br/>
+                            <li>7072 Lanzones, Langka Cor.,</li>
+                            <li>Comembo, Makati</li>
+                        </ul>
+                    </div>
                     <div className="aboutPage">
                         <p>Contact</p>
                     </div>
-                    <br/>
-                    
-                    <ul>
-                    <li className="fa fa-phone">
-                    
-                    </li>   
-                    <p>+63 926-058-4596</p> 
-                    <li className="fa fa-envelope">
-
-                    </li>
-                    <p>shanepalomo@gmail.com</p>
-                   
-                        
-                      
-                    </ul>
-                    <br/>
+    
+                    <div className="aboutPageList">
+                        <ul className="center">
+                            <li className="fa fa-phone"></li> 
+                            <p>+63 926-058-4596</p> 
+                            <li className="fa fa-envelope"></li>
+                            <p>shanepalomo@gmail.com</p>                           
+                        </ul>
+                    </div>
+                 
               </MDBCol>
             </MDBRow>
          
@@ -206,11 +177,7 @@ const Layout = () => {
 
             <MDBRow>
                 {gridTable()}
-            </MDBRow> 
-
-            
-            {/* {socialIcons()} */}
-            
+            </MDBRow>          
             
             {/* {footer()} */}
             {copyRight()}

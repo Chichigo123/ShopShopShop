@@ -1,25 +1,7 @@
-.col-md-1{
-
-    /* background-color: red; */
-}
-
-.col-md-2{
-
-    /* background-color: rgba(202, 66, 66, 0.205); */
-}
-.homeTop{  
-
-    padding: 10vh; 
-    border:0;
-    /* background-color: #00bcd4; */
-
-}
-
-
 .home{  
     height: 90vh;
     padding: 10vh;
-    margin-top: 10vh; 
+    margin-top: 5vh; 
     /* background-color: #00a5bb; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -29,9 +11,10 @@
 
 }
 .home.col-md-8{
-    background-color: rgb(159, 255, 255, .8);
+    background-color:   #F0EAD6;
 
 }
+
 
 .aboutPage{
     display: block;
@@ -50,78 +33,91 @@
 .aboutPage > p {
     text-align: center;
     color: #6C4F3D;
-    font-size: 2vh;
+    font-size: 3vh;
     font-family: Electrolize, sans-serif;
-    
-
-
+    letter-spacing: -3px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    margin: 1vh;
 }
 
-.avatar{
-    border-radius: 50%;
+@import url('https://fonts.googleapis.com/css?family=Electrolize');
+.aboutPageList > ul{
+    text-align: right;
+    color: #6C4F3D;
+    font-size: 2vh;
+    font-family: Electrolize, sans-serif;
+    list-style: none;
+    margin: 2vh 2vh 0 0;
+    letter-spacing: -1px;
+    padding-right: 3rem;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Electrolize');
+.aboutPageList.center > ul{
+    text-align: center;
+    color: #6C4F3D;
+    font-size: 2vh;
+    font-family: Electrolize, sans-serif;
+    list-style: none;
+}
+
+
+ .avatarBox{
+    display: block;
+    margin: auto;
+    width: 90vh;
+    height: 40vh;
+  
+    background: url('sunset.jpg');
+    background-size: cover;
+    /* background-color: rgb(92, 63, 63);
+    background-blend-mode: lighten; */
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: 4px 4px 8px 4px  rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.2);
+    
+    /* display: inline-block; */
+/*     
+    border-radius: 10%;
     height: 50%;
-    width: 50%;
-    /* position: fixed; */
-    /* margin-top: vh; */
+    width: 40%;
     display: block  ; 
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid #EAE6DA;
+    border: 2px solid rgb(168, 206, 209);
     box-shadow: -1px 3px 16px -1px rgba(118,111,87,0.78);
+    background-size: cover;
     opacity: .9;
+    background: url('beach-orig.jpg');
+    background-color: magenta;
+    background-blend-mode: screen;
+    max-width: 100%;
+    max-height: 100%;
+    height: 50%;
+    width: 50%;
+    */
+
 }
 
-.home > ul{
-    font-size: 20px;
-    /* text-align: center; */
-    list-style-type:none;
-    /* list-style: inside; */
-    margin-top: 1vh;
-    
-}  
 
-@import url('https://fonts.googleapis.com/css?fmily=Give+You+Glory');
-.home > p{   
-    
-    font-size: 100px;
+#welcomeHeader{
+
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
     text-align: center;
-    /* padding: 10%; */
-    /* margin-right: 20vh;   */
-    /* font-family: "Give You Glory", cursive;
-    font-style: italic; */
-    /* text-transform: capitalize; */
-    /* font-variant: small-caps; */
-    letter-spacing: -2px;
-    word-spacing: 2px;
-    color: #6C4F3D;
-    /* text-shadow: rgb(0, 0, 0) 2px 2px  */
-    
-}
-.img-responsive{
-    height:100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-  
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-   
+    margin-top: 1rem;
+    font-family: Electrolize, sans-serif;
+    opacity: .8;
 }
 
-
-
-#third.col-sm-2{
-
-    display: none!important;
-}
-
-.fontsize-twenty{
-    font-size: 20px;
-}
+<--NAVBAR-->
 
 #navBarTop{
     height:10vh;
     opacity: 1;
+}
+
+.fontsize-twenty{
+    font-size: 20px;
 }
 
 #headerFont{
@@ -136,42 +132,7 @@
     font-variant: small-caps;
 }
 
-
-
-@import url('https://fonts.googleapis.com/css?family=Assistant');
-.col-4.footer > p.footerParagraph {
-    font-family: Assistant, sans-serif;
-    text-align: center;
-    text-transform: none;
-    font-size: 15px;
-    letter-spacing: 2px;
-    color: #ffffff;
-    position: relative;
-    margin-top: -10px;
-    font-variant: normal;
- }
-
-
- @import url('https://fonts.googleapis.com/css?family=Assistant');
-.col-4.footer > p {
-    font-family: Assistant, sans-serif;
-    font-variant: small-caps;
-    text-align: center;
-    font-size: 25px;
-    letter-spacing: 2px;
-    word-spacing: -2px;
-    color: #ffffff;
-    margin-top: 1px;
-}
-
-.col-4.footer {
-    height:15vh;
-    padding: 0rem;
-    
-    text-align: center;
-    border: 0;
- }
-
+<--FOOTER-->
 #footerCont.container-fluid{
     background-color:#008fa1;
     height:20vh;
@@ -186,15 +147,10 @@
     position: fixed;
     bottom: 0;
     left:0;
-    /* background-color: #007888; */
     border-left:5px  solid rgb(252, 243, 243);
     border-right:5px  solid rgb(252, 243, 243);
     border-bottom: 5px  solid rgb(252, 243, 243);
-    /* background-color:red;  */
     box-shadow: none;
-
-
-
 }
 
  .copyrightFooter{
@@ -207,110 +163,6 @@
  }
 
 
-.socialIcons{
-    height: 20vh;
-}
-
-#icons.socialIcons{
-    text-align: center;
-    padding:.5rem
-}
-
-
-.fa {
-    padding: 5px;
-/* padding-top: 10px; */
-padding-left:12px;
-/* padding-bottom: 10px; */
-font-size: 30px;
-width: 50px;
-text-decoration: none;
-border-radius: 50%;
-margin-right: 1rem;
-border: 2px solid white;
-
-/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-/* margin-right: 1rem;
-margin-bottom: .7rem; */
-}
-
-.fa-phone{
-
-
-    display: inline-block;
-  
-}
-
-
-#icons{
-    margin-left: auto;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-/* background: #3B5998; */
-color: white;
-
-}
-
-.fa-linkedin {
-/* background: #007bb5; */
-color: white;
-}
-
-.fa-skype {
-/* background: #00aff0; */
-color: white;
-}
-
-.fa-github {
-padding-top: 0px;
-padding-left: 0px;
-padding-bottom: 0px;
-margin-right: none;
-background-color: none;
-box-shadow: none;
-border: none;
-padding-top: 0px;
-color:rgb(88, 88, 88);
-font-size: 30px;
-width: 20px;
-/* margin-left: none; */
-}
-
-.fa-facebook {
-    /* background: #3B5998; */
-    color: white;
-    
-}
 
 
 
-.fa.fa-github:hover {
-opacity: 0.5;
-color:white;
-}
-
-.afont
-{
-    color:white;    
-}
-
-.pic{
-
-
-
-}
-.card-body{
-
-    width: 30%;
-    height: 80%; 
-    
-    margin-left: auto;
-    margin-right: 10vh;
-    margin-top: 1%;
-
-}
