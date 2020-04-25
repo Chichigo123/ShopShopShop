@@ -10,6 +10,11 @@ border: 2px solid white;
 text-align: center 
 }
 
+.fa-phone {
+    border: none;
+}
+    
+
 .fa-github {
 background-color: none;
 box-shadow: none;
@@ -49,7 +54,6 @@ color: white;
 .fa-facebook {
 /* background: #3B5998; */
 color: white;
-
 }
 
 

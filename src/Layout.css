@@ -29,6 +29,12 @@
     box-shadow: -1px 3px 16px -1px rgba(118,111,87,0.78);
 }
 
+.aboutPageList{
+    display: block;
+    margin: auto auto auto auto;
+    width:30vh;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Electrolize');
 .aboutPage > p {
     text-align: center;
@@ -37,7 +43,6 @@
     font-family: Electrolize, sans-serif;
     letter-spacing: -3px;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
-    margin: 1vh;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Electrolize');
@@ -47,9 +52,8 @@
     font-size: 2vh;
     font-family: Electrolize, sans-serif;
     list-style: none;
-    margin: 2vh 2vh 0 0;
     letter-spacing: -1px;
-    padding-right: 3rem;
+    margin: 1rem auto 1rem auto;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Electrolize');
@@ -65,7 +69,7 @@
  .avatarBox{
     display: block;
     margin: auto;
-    width: 90vh;
+    width: 80vh;
     height: 40vh;
   
     background: url('sunset.jpg');
