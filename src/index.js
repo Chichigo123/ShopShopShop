@@ -11,7 +11,12 @@ import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import 'jquery/dist/jquery.min.js';
 import 'popper.js/dist/popper.min.js'
-import './index.css';
+import './css/index.css';
+
+import './css/Home.css'
+import './css/Icons.css'
+import './css/Common.css'
+import 'mdbreact/dist/css/mdb.css';
 
 
 // ReactDOM.render(
