@@ -6,14 +6,12 @@ import Copyright from './Common'
 const gridTable = () => {
     return (
         // className="w-50"
-        <MDBContainer>
-            <MDBRow className="home">
+            <div className="container">
                 <div id="home-left">
-                    <div className="avatarBox">
-                    </div>
+                    <img src="sunset.jpg" alt="beach" ></img>
                     <div>
-                        <h1 id="welcomeHeader" style={{"font-size":"20vh"}}>Welcome</h1>  
-                        <h5 id="welcomeHeader" style={{"color":"#6C4F3D", "opacity":".5"}}>
+                        <h1 className="welcomeHeader">Welcome</h1>  
+                        <h5 className="welcomeHeader" style={{"color":"#6C4F3D", "opacity":".5"}}>
                             This is an experimental site for front-end and back-end web development.<br/>
                         </h5>
                     </div>
@@ -55,15 +53,15 @@ const gridTable = () => {
                         </ul>
                     </div>
                 </div>
-            </MDBRow>      
-        </MDBContainer>
+            </div>
+          
     );
 }
 
 const Home = () => {
      return (       
-        <MDBContainer fluid='True'>
-            <MDBRow>
+        <MDBContainer>
+            <MDBRow className="home">
                 {gridTable()}
             </MDBRow>          
             <Copyright />
