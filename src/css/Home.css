@@ -9,14 +9,14 @@
 
 #home-left{
     width: 80%;
+    height: 100%;
     background-color:   #F0EAD6;
     float: left; 
-    height: 100%;
+    padding-top: 10vh;
    
 }
 
 #home-left > img{
-    background-color:   #F0EAD6;
     width: 80%;
     display: block;
     margin-left: auto;
@@ -26,10 +26,12 @@
 }
 
 #home-right{
-    background-color:   rgb(255, 255, 255);
     width: 20%;
+    height: 100%;
+    background-color:   rgb(255, 255, 255);
     float:right;
-    padding-top: 10vh; 
+    padding-top: 10vh;
+  
 }
 
 .aboutPage{

@@ -13,8 +13,6 @@ only screen and (max-width: 640px), only screen and (max-device-width: 640px){
     }
 
     h5.welcomeHeader{
-        color: #6C4F3D;
-        opacity: .5;
         font-size: .5em;
     }
 }
