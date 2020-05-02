@@ -7,7 +7,7 @@
     background-color:   #F0EAD6;
     float: left; 
     padding-top: 15vh; 
-    margin-left: 0;
+    margin-left: -1em;
 }
 
 #home-left > img{
