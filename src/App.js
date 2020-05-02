@@ -19,12 +19,12 @@ const navigationBar = () => {
       <nav className="navbar navbar-expand-md  fixed-top navbar-dark bg-dark" id="navBarTop">
           <a class="navbar-brand" href="#" id="headerFont">Learn by Doing</a>
         
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-              <span class="navbar-toggler-icon"></span>
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span className="navbar-toggler-icon"></span>
           </button>
 
-          <div className="collapse navbar-collapse fontsize-twenty" id="collapsibleNavbar">
-              <ul className="navbar-nav    ">
+          <div className="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul className="navbar-nav">
                   <li className="nav-item active"><NavLink className="nav-link " to="/Home">Home</NavLink></li>
                   <li className="nav-item "><NavLink className="nav-link " to="/About">About</NavLink></li>
                   <li className="nav-item "><NavLink className="nav-link "  to="#">Games</NavLink></li>

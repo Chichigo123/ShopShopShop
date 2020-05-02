@@ -24,4 +24,13 @@ body{
     border-right:5px  solid rgb(252, 243, 243);
     border-top:5px  solid rgb(252, 243, 243);
     height: 5vw;
+    
 }
+
+#headerFont, .navbar-toggler, #collapsibleNavbar{
+    font-size: 2vw;
+ }
+
+.navbar-toggler, #collapsibleNavbar{
+    font-size: 1vw;
+ }
