@@ -6,13 +6,19 @@ only screen and (max-width: 640px), only screen and (max-device-width: 640px){
         font-size: .5em;
       
     }
+    
+    #home-left > img{
+        width: 80%;
+        height: 40%;
+       
+    }
 
     h1.welcomeHeader{
-        font-size: 3em;
+        font-size: 2em;
       
     }
 
     h5.welcomeHeader{
-        font-size: .5em;
+        font-size: .3em;
     }
 }
