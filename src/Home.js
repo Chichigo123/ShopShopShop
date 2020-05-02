@@ -17,21 +17,21 @@ const gridTable = () => {
                     </div>
                 </div>
 
-                <div id="home-right">  
-                    {/* <div className="aboutPage">
+                <div id="home-right">
+                    <div className="about-box">
                         <p> About Site</p>
                     </div>
-                    <div className="aboutPageList">
+                    <div className="about-box-list">
                         <ul>
                             <li>ReactJS</li>
                             <li>Bootstrap</li>
                             <li>JavaScript</li>
                         </ul>
                     </div>
-                    <div className="aboutPage">
+                    <div className="about-box">
                         <p>Address</p>
                     </div>
-                    <div className="aboutPageList">
+                    <div className="about-box-list">
                         <ul>
                             <li>Purok 5, Brgy. Calumpang,</li>
                             <li>Liliw, Laguna</li>
@@ -40,11 +40,11 @@ const gridTable = () => {
                             <li>Comembo, Makati</li>
                         </ul>
                     </div>
-                    <div className="aboutPage">
+                    <div className="about-box">
                         <p>Contact</p>
                     </div>
     
-                    <div className="aboutPageList">
+                    {/* <div className="about-box-list">
                         <ul className="center">
                             <li className="fa fa-phone"></li> 
                             <p>+63 926-058-4596</p> 

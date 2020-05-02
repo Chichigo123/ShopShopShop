@@ -35,7 +35,7 @@
   
 }
 
-.aboutPage{
+.about-box{
     display: block;
     margin: auto auto auto auto;
     width: 80%;
@@ -45,14 +45,13 @@
     box-shadow: -1px 3px 16px -1px rgba(118,111,87,0.78);
 }
 
-.aboutPageList{
-    display: block;
-    margin: auto auto auto auto;
-    width:90%;
+.about-box-list{
+   padding-right: 1vw;
+   width:100%;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Electrolize');
-.aboutPage > p {
+.about-box > p {
     text-align: center;
     color: #6C4F3D;
     font-size: 1em;
@@ -61,10 +60,10 @@
 }
 
 @import url('https://fonts.googleapis.com/css?family=Electrolize');
-.aboutPageList > ul{
+.about-box-list > ul{
     text-align: right;
     color: #6C4F3D;
-    font-size: 1em;
+    font-size: .8em;
     font-family: Electrolize, sans-serif;
     list-style: none;
 }
@@ -77,7 +76,6 @@
     font-family: Electrolize, sans-serif;
     list-style: none;
 }
-
 
 .welcomeHeader{
     color: rgb(255, 255, 255);
