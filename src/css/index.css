@@ -14,26 +14,21 @@ body{
     /* background-position: 0 20vh;; */
 }
 
-.navbar, .navbar-light, .bg-light {
-    /* background-color: #00bcd4; */
-    /* column-rule: white; */
-    /* border: 0; */
-    /* -webkit-box-shadow: none; */
-    /* box-shadow: none; */
+.navbar{
     height: 5vw;
     padding-top: 0;
     margin-top: 0;
-    
 }
 
-#headerFont, .navbar-toggler, #collapsibleNavbar{
+#headerFont{
     font-size: 2vw;
-    padding-top: 0;
-    margin-top: 0;
+   
  }
 
 .navbar-toggler, #collapsibleNavbar{
-    font-size: 1vw;
-    padding-top: 0;
-    margin-top: 0;
+    font-size: 1vw;    
+ }
+
+ .navbar-nav{
+    background-color: #212121;
  }

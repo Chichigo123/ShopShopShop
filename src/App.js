@@ -25,10 +25,10 @@ const navigationBar = () => {
 
           <div className="collapse navbar-collapse" id="collapsibleNavbar">
               <ul className="navbar-nav">
-                  <li className="nav-item active"><NavLink className="nav-link " to="/Home">Home</NavLink></li>
+                  <li className="nav-item"><NavLink className="nav-link " to="/Home">Home</NavLink></li>
                   <li className="nav-item "><NavLink className="nav-link " to="/About">About</NavLink></li>
                   <li className="nav-item "><NavLink className="nav-link "  to="#">Games</NavLink></li>
-                  <li className="nav-item "><NavLink className="nav-link "  to="#">Contact</NavLink></li>
+                  <li className="nav-item"><NavLink className="nav-link "  to="#">Contact</NavLink></li>
               </ul>
 
               <div id="icons">

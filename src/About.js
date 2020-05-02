@@ -39,33 +39,16 @@ const image = () =>
   )
 
   
-const aboutme = () => 
-( 
-  <div id = "aboutme">
-      <h1> Rose Shane</h1>
-
-  </div>
-)
 
 
-  const gridTable = () => {
-    return (
-        // className="w-50"
-        <MDBContainer className="w-50 home">
-            <MDBRow className="home">
-              {aboutme()}
-              {image()}
-            </MDBRow>      
-        </MDBContainer>
-    );
-}
 
 const About = () => {
   return (       
-      <MDBContainer fluid='True'>
+      <MDBContainer>
+       
         <MDBRow>
-        {gridTable()}
-        </MDBRow>          
+            {image()}
+        </MDBRow>       
         <Copyright />
       </MDBContainer>          
   );
