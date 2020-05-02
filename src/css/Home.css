@@ -17,14 +17,14 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5vw;
+    margin-top: 5vw; 
     border: 5px solid rgb(255, 255, 255);
     box-shadow: 4px 4px 8px 4px  rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.2);
 }
 
 #home-right{
     background-color:   rgb(255, 255, 255);
-    margin-top: 5vw;
+    margin-top: 8vw;
     width: 30%;
     float:right;
 }
@@ -88,7 +88,7 @@
 }
 
 h1.welcomeHeader{
-    font-size:10vw;
+    font-size:5vw;
 }
 
 
