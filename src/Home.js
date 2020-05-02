@@ -44,14 +44,14 @@ const gridTable = () => {
                         <p>Contact</p>
                     </div>
     
-                    {/* <div className="about-box-list">
-                        <ul className="center">
+                    <div className="about-box-list">
+                        <ul>
                             <li className="fa fa-phone"></li> 
                             <p>+63 926-058-4596</p> 
                             <li className="fa fa-envelope"></li>
                             <p>shanepalomo@gmail.com</p>                           
                         </ul>
-                    </div> */}
+                    </div>
                 </div>
             </div>
           

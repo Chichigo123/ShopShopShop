@@ -59,18 +59,8 @@
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
-@import url('https://fonts.googleapis.com/css?family=Electrolize');
 .about-box-list > ul{
     text-align: right;
-    color: #6C4F3D;
-    font-size: .8em;
-    font-family: Electrolize, sans-serif;
-    list-style: none;
-}
-
-@import url('https://fonts.googleapis.com/css?family=Electrolize');
-.center > p{
-    text-align: center;
     color: #6C4F3D;
     font-size: .8em;
     font-family: Electrolize, sans-serif;
