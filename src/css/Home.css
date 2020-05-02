@@ -1,6 +1,7 @@
 .home{  
-    height: 90vh;
+    height: 40vw;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
 }
 
 #home-left{
@@ -9,6 +10,7 @@
     height: 100%;
     float: left;
     margin-left: -1rem;
+    padding-top: 5vw; 
 }
 
 #home-left > img{
@@ -17,16 +19,15 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5vw; 
-    border: 5px solid rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
     box-shadow: 4px 4px 8px 4px  rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.2);
 }
 
 #home-right{
     background-color:   rgb(255, 255, 255);
-    margin-top: 8vw;
     width: 30%;
     float:right;
+    margin-top: 5vw; 
 }
 
 .aboutPage{
@@ -35,6 +36,7 @@
     width: 80%;
     height: 5%;;
     background-color: #F0EDE5;
+    margin-top: 1vw;
     
     /* border: 2px solid #D1B894;; */
     /* -webkit-box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
