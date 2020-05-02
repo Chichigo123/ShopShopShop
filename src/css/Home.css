@@ -1,12 +1,11 @@
 .home{  
-    height: 100vh;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 }
 
 #home-left{
     background-color:   #F0EAD6;
-    width:70%;
+    width:80%;
     height: 100%;
     float: left;
     margin-left: -1rem;
@@ -25,7 +24,7 @@
 
 #home-right{
     background-color:   rgb(255, 255, 255);
-    width: 30%;
+    width: 20%;
     float:right;
     padding-top: 15vh; 
 }
@@ -47,7 +46,7 @@
 .aboutPageList{
     display: block;
     margin: auto auto auto auto;
-    width:80%;
+    width:90%;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Electrolize');
@@ -66,14 +65,13 @@
     font-size: 1em;
     font-family: Electrolize, sans-serif;
     list-style: none;
-    margin: 1rem auto 1rem auto;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Electrolize');
-.aboutPageList.center > ul{
+.center > p{
     text-align: center;
     color: #6C4F3D;
-    font-size: 1em;
+    font-size: .8em;
     font-family: Electrolize, sans-serif;
     list-style: none;
 }
@@ -88,7 +86,7 @@
 }
 
 h1.welcomeHeader{
-    font-size:5em;
+    font-size: 5rem;
 }
 
 

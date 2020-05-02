@@ -27,25 +27,22 @@
 
 @import url('https://fonts.googleapis.com/css?family=Gafata');
 #image-about {
-    height: 55vh;
-    width: 90vh;
     margin-left: auto;
     margin-right:auto;
     margin-top: 20vh;;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #deeaee;
     border-radius: 5%;
-    font-family: Gafata, sans-serif;
+    font-family: Gafata, sans-serif;    
     text-align: center;
     letter-spacing: 1px;
     color: rgb(170, 155, 155);
-   
     
 }
 
 
 #image-about > img{
-    height: 70%;    
+    height: 80%;    
     width: 50%;
     opacity:  .9;
     float: left;
