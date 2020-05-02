@@ -11,8 +11,8 @@
     width: 80%;
     background-color:   #F0EAD6;
     float: left; 
-    padding-top: 10vh; 
-    margin-left: -1em;
+    height: 100%;
+   
 }
 
 #home-left > img{
