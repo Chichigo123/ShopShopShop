@@ -45,11 +45,11 @@ const gridTable = () => {
                     </div>
     
                     <div className="about-box-list">
-                        <ul>
+                        <ul className = "center">
                             <li className="fa fa-phone"></li> 
                             <p>+63 926-058-4596</p> 
                             <li className="fa fa-envelope"></li>
-                            <p>shanepalomo@gmail.com</p>                           
+                            <p>shanepalomo<br/>@gmail.com</p>                           
                         </ul>
                     </div>
                 </div>
