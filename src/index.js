@@ -14,6 +14,7 @@ import 'popper.js/dist/popper.min.js'
 import './css/index.css';
 
 import './css/Home.css'
+import './css/About.css';
 import './css/Icons.css'
 import './css/Common.css'
 import 'mdbreact/dist/css/mdb.css';

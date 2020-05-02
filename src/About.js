@@ -1,10 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './css/About.css';
+
 import { MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardTitle, MDBCardText, MDBCardHeader} from 'mdbreact';
 
-import './css/Home.css'
-import './css/Icons.css'
 
 import Copyright from './Common'
 

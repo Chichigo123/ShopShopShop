@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import { render } from '@testing-library/react';
 import logo from './logo.svg';
 import './css/App.css';
-import './css/Media.css';
 import Game from './TicTacToe'
 import Home from './Home'
 import About from './About'
