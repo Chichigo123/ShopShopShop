@@ -8,12 +8,12 @@ only screen and (max-width: 640px), only screen and (max-device-width: 640px){
 
     @import url('https://fonts.googleapis.com/css?family=Electrolize');
     .about-box > p {
-        font-size: .8em;
+        font-size: .5vw;
     }
 
     @import url('https://fonts.googleapis.com/css?family=Electrolize');
     .about-box-list > ul{
-        font-size: .3em;
+        font-size: .3vw;
     }
 
     p.bold-underline, #image-about{
