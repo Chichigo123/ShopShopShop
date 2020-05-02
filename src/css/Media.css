@@ -1,6 +1,21 @@
 
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px), 
 only screen and (max-width: 640px), only screen and (max-device-width: 640px){
+    .about-box{
+        width: 70%;
+        height: 3%;
+    }
+
+    @import url('https://fonts.googleapis.com/css?family=Electrolize');
+    .about-box > p {
+        font-size: .8em;
+    }
+
+    @import url('https://fonts.googleapis.com/css?family=Electrolize');
+    .about-box-list > ul{
+        font-size: .3em;
+    }
+
     p.bold-underline, #image-about{
 
         font-size: .5em;
