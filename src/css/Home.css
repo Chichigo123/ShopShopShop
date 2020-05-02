@@ -1,15 +1,13 @@
 .home{  
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
 }
 
 #home-left{
+    width: 80%;
     background-color:   #F0EAD6;
-    width:80%;
-    height: 100%;
-    float: left;
-    margin-left: -1rem;
+    float: left; 
     padding-top: 15vh; 
+    margin-left: 0;
 }
 
 #home-left > img{

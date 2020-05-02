@@ -6,7 +6,7 @@ import Copyright from './Common'
 const gridTable = () => {
     return (
         // className="w-50"
-            <div className="container">
+            <div className="home container">
                 <div id="home-left">
                     <img src="sunset.jpg" alt="beach" ></img>
                     <div>
@@ -61,7 +61,7 @@ const gridTable = () => {
 const Home = () => {
      return (       
         <MDBContainer>
-            <MDBRow className="home">
+            <MDBRow>
                 {gridTable()}
             </MDBRow>          
             <Copyright />
