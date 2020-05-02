@@ -1,15 +1,15 @@
 
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px), 
 only screen and (max-width: 640px), only screen and (max-device-width: 640px){
-    p.bold-underline, #image-about > p{
+    p.bold-underline, #image-about{
 
         font-size: .5em;
-        color:green;
+      
     }
 
     h1.welcomeHeader{
         font-size: 3em;
-        color:black;
+      
     }
 
     h5.welcomeHeader{

@@ -7,7 +7,7 @@ const gridTable = () => {
     return (
         // className="w-50"
             <div className="home">
-                <div id="home-left">
+                {/* <div id="home-left">
                     <img src="sunset.jpg" alt="beach" ></img>
                     <div>
                         <h1 className="welcomeHeader">Welcome</h1>  
@@ -52,7 +52,7 @@ const gridTable = () => {
                             <p>shanepalomo@gmail.com</p>                           
                         </ul>
                     </div>
-                </div>
+                </div> */}
             </div>
           
     );
