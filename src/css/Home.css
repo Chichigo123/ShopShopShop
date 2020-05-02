@@ -26,6 +26,7 @@
     background-color:   rgb(255, 255, 255);
     padding-top: 8rem;
     width: 30%;
+    height: 100%;
     float:right;
 }
 
@@ -107,15 +108,4 @@ h5.welcomeHeader{
     font-size: 20px;
 }
 
-#headerFont{
-    font-family: Tahoma, Geneva, sans-serif;
-    font-size: 30px;
-    letter-spacing: 0.8px;
-    word-spacing: -4.6px;
-    color: #ffffff;
-    font-weight: 400;
-    text-decoration: none;
-    font-style: normal;
-    font-variant: small-caps;
-}
 

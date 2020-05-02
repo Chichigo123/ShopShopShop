@@ -16,9 +16,8 @@ import './css/index.css';
 import './css/Home.css'
 import './css/Icons.css'
 import './css/Common.css'
-import './css/Media.css'
 import 'mdbreact/dist/css/mdb.css';
-
+import './css/Media.css'
 
 // ReactDOM.render(
 //   <React.StrictMode>

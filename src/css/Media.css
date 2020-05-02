@@ -3,20 +3,9 @@
 only screen and (max-width: 640px), only screen and (max-device-width: 640px){
 
 
-#headerFont{
-
-font-family: "Courier New", Courier, monospace;
-font-size: 10px;
-letter-spacing: -0.8px;
-word-spacing: -0.4px;
-color: #ffffff;
-font-weight: 700;
-text-decoration: none;
-font-style: normal;
-font-variant: small-caps;
-text-transform: capitalize;
+h1.welcomeHeader{
+    font-size:100%;
 }
-
 
 .fa {
     padding: 5px;
