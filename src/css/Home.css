@@ -1,5 +1,5 @@
 .home{  
-    height: 40vw;
+    height: 100vh;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 }
@@ -10,7 +10,7 @@
     height: 100%;
     float: left;
     margin-left: -1rem;
-    padding-top: 5vw; 
+    padding-top: 15vh; 
 }
 
 #home-left > img{
@@ -27,7 +27,7 @@
     background-color:   rgb(255, 255, 255);
     width: 30%;
     float:right;
-    margin-top: 5vw; 
+    padding-top: 15vh; 
 }
 
 .aboutPage{
@@ -36,7 +36,7 @@
     width: 80%;
     height: 5%;;
     background-color: #F0EDE5;
-    margin-top: 1vw;
+    margin-top: 1vh;
     
     /* border: 2px solid #D1B894;; */
     /* -webkit-box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -54,7 +54,7 @@
 .aboutPage > p {
     text-align: center;
     color: #6C4F3D;
-    font-size: 1vw;
+    font-size: 1em;
     font-family: Electrolize, sans-serif;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
@@ -63,7 +63,7 @@
 .aboutPageList > ul{
     text-align: right;
     color: #6C4F3D;
-    font-size: 1vw;
+    font-size: 1em;
     font-family: Electrolize, sans-serif;
     list-style: none;
     margin: 1rem auto 1rem auto;
@@ -73,7 +73,7 @@
 .aboutPageList.center > ul{
     text-align: center;
     color: #6C4F3D;
-    font-size: 1vw;
+    font-size: 1em;
     font-family: Electrolize, sans-serif;
     list-style: none;
 }
@@ -88,19 +88,19 @@
 }
 
 h1.welcomeHeader{
-    font-size:5vw;
+    font-size:5em;
 }
 
 
 h5.welcomeHeader{
     color: #6C4F3D;
     opacity: .5;
-    font-size: 1vw;
+    font-size: 1em;
 }
 <--NAVBAR-->
 
 #navBarTop{
-    height:10vh;
+    height: 10vh;
     opacity: 1;
 }
 

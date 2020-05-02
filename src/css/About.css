@@ -31,7 +31,7 @@
     width: 90vh;
     margin-left: auto;
     margin-right:auto;
-    margin-top: 10vw;;
+    margin-top: 20vh;;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #deeaee;
     border-radius: 5%;
@@ -45,12 +45,12 @@
 
 
 #image-about > img{
-    height: 95%;    
+    height: 70%;    
     width: 50%;
     opacity:  .9;
     float: left;
-    padding-left: 1rem;
-    padding-top: 1rem;
+    padding-left: 1vh;
+    padding-top: 1vh;
     border-radius: 15%;  
 }
 
@@ -58,7 +58,7 @@
 p.bold-underline, #image-about > p{
     font-weight: bold;
     /* text-decoration: underline; */
-    font-size: 1vw;
+    font-size: 1em;
     color: rgb(19, 60, 70);
     display: inline;
 }

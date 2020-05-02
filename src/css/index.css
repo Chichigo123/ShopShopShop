@@ -15,18 +15,18 @@ body{
 }
 
 .navbar{
-    height: 5vw;
+    height: 10vh;
     padding-top: 0;
     margin-top: 0;
 }
 
 #headerFont{
-    font-size: 2vw;
+    font-size: 2em;
    
  }
 
 .navbar-toggler, #collapsibleNavbar{
-    font-size: 1vw;    
+    font-size: 1em;    
  }
 
  .navbar-nav{

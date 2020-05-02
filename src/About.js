@@ -12,10 +12,11 @@ const image = () =>
   ( 
     <div id = "image-about">
       <img src="beach-orig.jpg" alt="beach" ></img>
+      <br/>
       <p className="bold-underline">Shane </p>
       is a
       <p className="bold-underline"> software engineer </p><br/>
-      looking for work-from-home opportunities as <br/>
+      looking for work-from-home opportunities as 
       <p className="bold-underline"> backend developer </p>
       sometimes but rarely<br/>
       <p className="bold-underline"> front-end developer </p><br/>
