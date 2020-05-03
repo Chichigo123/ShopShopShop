@@ -44,7 +44,6 @@ const image = () =>
 const About = () => {
   return (       
       <MDBContainer>
-       
         <MDBRow>
             {image()}
         </MDBRow>       

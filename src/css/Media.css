@@ -18,7 +18,7 @@ only screen and (max-height: 640px), only screen and (max-device-height: 640px){
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px), 
 only screen and (max-width: 640px), only screen and (max-device-width: 640px){
     .home{ 
-        height: 50vh;
+        height: 60vh;
     }
 
     .about-box{
@@ -55,6 +55,6 @@ only screen and (max-width: 640px), only screen and (max-device-width: 640px){
     }
 
     h5.welcomeHeader{
-        font-size: .3em;
+        font-size: 1em;
     }
 }
