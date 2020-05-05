@@ -3,9 +3,6 @@ import ReactDOM from 'react-dom';
 
 import { MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardTitle, MDBCardText, MDBCardHeader} from 'mdbreact';
 
-
-import Copyright from './Common'
-
 const image = () => 
   ( 
     <div id = "image-about">
@@ -47,7 +44,6 @@ const About = () => {
         <MDBRow>
             {image()}
         </MDBRow>       
-        <Copyright />
       </MDBContainer>          
   );
 }

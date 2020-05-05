@@ -15,6 +15,7 @@ import './css/index.css';
 import './css/App.css';
 import './css/Home.css'
 import './css/About.css';
+import './css/Pokemon.css'
 import './css/Icons.css'
 import './css/Common.css'
 import 'mdbreact/dist/css/mdb.css';

@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import Home from './Home';
 import About from './About';
+import Pokemon from './Pokemon';
+import Copyright from './Common'
+
 import {
   Route,
   NavLink,
@@ -21,7 +24,7 @@ const navigationBar = () => {
               <ul className="navbar-nav">
                   <li className="nav-item"><NavLink className="nav-link " to="/Home">Home</NavLink></li>
                   <li className="nav-item "><NavLink className="nav-link " to="/About">About</NavLink></li>
-                  <li className="nav-item "><NavLink className="nav-link "  to="#">Games</NavLink></li>
+                  <li className="nav-item "><NavLink className="nav-link "  to="/Pokemon">Pokemon Finder</NavLink></li>
                   <li className="nav-item"><NavLink className="nav-link "  to="#">Contact</NavLink></li>
               </ul>
 
@@ -36,31 +39,12 @@ const navigationBar = () => {
 }
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { 
-      pokemons: [],
-    };
-}
-
-
-
-componentDidMount() {
-  console.log("Component Mount Printing SQL DB");
-  fetch('api/SQL')
-        .then(res => res.json())
-        .then(pokemonList => {
-          this.setState({ pokemons: pokemonList });
-      });
-}
-
-
   render() {
     return (
       <div className="App">
        
         {/* <Layout /> */}
-        
+  
         {/* <Game /> comment this out when game is ready*/}
         <Router>
         {navigationBar()}
@@ -69,16 +53,11 @@ componentDidMount() {
             <Route exact path="/" component={Home} /> 
             <Route path="/Home" component={Home} /> 
             <Route path="/About" component={About} /> 
+            <Route path="/Pokemon" component={Pokemon} /> 
           </Switch>
          
         </Router>
-
-          <div className="Users">
-          <h1>Users</h1>
-          {this.state.pokemons.map((pokemons) => (
-                    <li key={pokemons.id}>{pokemons.Name}</li>
-                ))}
-        </div>
+        <Copyright />
       </div>
 );
   }

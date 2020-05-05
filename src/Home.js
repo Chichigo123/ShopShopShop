@@ -1,8 +1,6 @@
 import React from "react";
 import { MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardTitle, MDBCardText, MDBCardHeader} from 'mdbreact';
 
-import Copyright from './Common'
-
 const gridTable = () => {
     return (
         // className="w-50"
@@ -63,10 +61,7 @@ const Home = () => {
         <MDBContainer>
             <MDBRow>
                 {gridTable()}
-            </MDBRow>
-            
-                <Copyright />
-            
+            </MDBRow>          
            
         </MDBContainer>          
     );
