@@ -22,6 +22,7 @@ const gridTable = () => {
                     <div className="about-box-list">
                         <ul>
                             <li>ReactJS</li>
+                            <li>NodeJS</li>
                             <li>Bootstrap</li>
                             <li>JavaScript</li>
                         </ul>
