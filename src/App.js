@@ -1,11 +1,6 @@
 import React, {Component} from 'react';
-import ReactDOM from 'react-dom';
-import { render } from '@testing-library/react';
-import logo from './logo.svg';
-import './css/App.css';
-import Game from './TicTacToe'
-import Home from './Home'
-import About from './About'
+import Home from './Home';
+import About from './About';
 import {
   Route,
   NavLink,
@@ -16,7 +11,7 @@ import {
 const navigationBar = () => {
   return (
       <nav className="navbar navbar-expand-md  fixed-top navbar-dark bg-dark" id="navBarTop">
-          <a class="navbar-brand" href="#" id="headerFont">Learn by Doing</a>
+          <a className="navbar-brand" href="#" id="headerFont">Learn by Doing</a>
         
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
               <span className="navbar-toggler-icon"></span>
@@ -41,6 +36,25 @@ const navigationBar = () => {
 }
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { 
+      pokemons: [],
+    };
+}
+
+
+
+componentDidMount() {
+  console.log("Component Mount Printing SQL DB");
+  fetch('api/SQL')
+        .then(res => res.json())
+        .then(pokemonList => {
+          this.setState({ pokemons: pokemonList });
+      });
+}
+
+
   render() {
     return (
       <div className="App">
@@ -50,6 +64,7 @@ class App extends Component {
         {/* <Game /> comment this out when game is ready*/}
         <Router>
         {navigationBar()}
+
           <Switch>
             <Route exact path="/" component={Home} /> 
             <Route path="/Home" component={Home} /> 
@@ -57,6 +72,13 @@ class App extends Component {
           </Switch>
          
         </Router>
+
+          <div className="Users">
+          <h1>Users</h1>
+          {this.state.pokemons.map((pokemons) => (
+                    <li key={pokemons.id}>{pokemons.Name}</li>
+                ))}
+        </div>
       </div>
 );
   }

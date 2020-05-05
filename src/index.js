@@ -12,7 +12,7 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import 'jquery/dist/jquery.min.js';
 import 'popper.js/dist/popper.min.js'
 import './css/index.css';
-
+import './css/App.css';
 import './css/Home.css'
 import './css/About.css';
 import './css/Icons.css'
