@@ -33,11 +33,8 @@ const gridTable = () => {
                     </div>
                     <div className="about-box-list">
                         <ul>
-                            <li>Purok 5, Brgy. Calumpang,</li>
-                            <li>Liliw, Laguna</li>
-                            <br/>
-                            <li>7072 Lanzones, Langka Cor.,</li>
-                            <li>Comembo, Makati</li>
+                            <li>Brgy. Calumpang, Liliw, Laguna</li>
+                            <li>7072 Lanzones, Langka, Comembo, Makati</li>
                         </ul>
                     </div>
                     <div className="about-box">
