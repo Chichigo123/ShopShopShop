@@ -21,10 +21,11 @@ const gridTable = () => {
                     </div>
                     <div className="about-box-list">
                         <ul>
-                            <li>ReactJS</li>
-                            <li>NodeJS</li>
-                            <li>Bootstrap</li>
-                            <li>JavaScript</li>
+                            <li>ReactJS as Front-End</li>
+                            <li>NodeJS server running via PM2</li>
+                            <li>NPM as pkg manager</li>
+                            <li>MySQL for Database</li>
+                            <li>Bootstrap for styling</li>
                         </ul>
                     </div>
                     <div className="about-box">
