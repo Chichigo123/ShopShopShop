@@ -1,0 +1,60 @@
+.pokemon-table{
+    height: 50vh;
+    width:100vw;
+    margin-left: auto;
+    margin-right:auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 10vh;
+    margin-top: 5vh;
+}
+
+
+table {
+    width: 100%;
+    margin: 20px auto;
+    table-layout: auto;
+  }
+  
+  .fixed {
+    table-layout: fixed;
+  }
+  
+
+table,
+td,
+th {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 1px;
+  border: solid 1px;
+  text-align: center;
+}
+
+.table-header > th{
+    height: 15%;
+    font-size: .3em;
+    font-weight: bold;
+    background-color: rgb(170, 155, 155);
+}
+
+tr.table-header{
+    font-size: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+td.table-name-narrow{
+    width: 15%;
+
+}
+
+.btn.delete{
+    width: 50%;
+    height:25%;
+    font-size: .5em;
+    margin: 1em 1em 1em 0;
+    padding: 1em 1em 1em 1em;
+    text-align: center;
+}
