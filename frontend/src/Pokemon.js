@@ -20,21 +20,39 @@ class Pokemon extends Component {
   }
   
   refreshPage(){
-    fetch('api/')
+    fetch('api/api/')
     .then(res => res.json())
     .then(pokemonList => {
       this.setState({ pokemons: pokemonList });
     });
   }
- 
+
+  handleValidation = () => {
+    if( this.state.name === ""|| this.state.description  ==="")
+    {
+      alert("Please fill in all input fields");
+      return false;
+    }
+    return true;
+  }
+    
 
   handleSubmit = (event, action, pokemon_name) => {
     event.preventDefault(); 
+
+    if (action == "new"){
+      let formIsValid = this.handleValidation();
+      
+      if (formIsValid == false) {
+        return;
+      }
+    }
+    
     var data = {
         name: this.state.name,
         description: this.state.description
     }
-    let url_path = "/api/"+action+"pokemon";
+    let url_path = "/api/api/"+action+"pokemon";
     fetch(url_path, {
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
@@ -42,7 +60,7 @@ class Pokemon extends Component {
     })
     .then((response) =>  {
         if (response.status >= 400) {
-          alert('There was a problem with the action. Please try again')
+          alert('There was a problem with the action. Please check for duplicate entry.')
           throw new Error("Bad response from server");
         }
         return response.json()
@@ -109,6 +127,7 @@ class Pokemon extends Component {
   }
 
   deletePokemon = (event) => {
+    console.log(event.target.value)
     this.setState({[event.target.name]: event.target.value});
     console.log(event.target )
     {this.handleSubmit(event, 'delete')};
@@ -139,10 +158,9 @@ class Pokemon extends Component {
                       {pokemons.description}
                   </td>
                   <td className='table-name-narrow'>
-                  <button className="btn btn-danger rounded-0 delete" type="button" data-toggle="tooltip" data-placement="top" title="Delete" 
-                          name="name" value={pokemons.name} onClick={e => this.deletePokemon(e)}>
-                    <i className="fa fa-trash" name="name" value={pokemons.name} onClick={e => this.deletePokemon(e)}></i>
-                  </button>                         
+                  <button className="fa fa-trash" type="button" title="Delete" 
+                          name="name" value={pokemons.name} onClick={e => this.deletePokemon(e)} >
+                   </button>                         
                   </td>
             </tr>
             </React.Fragment>     
